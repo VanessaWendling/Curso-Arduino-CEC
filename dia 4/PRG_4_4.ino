@@ -28,7 +28,7 @@ void loop()
   Serial.print("Valor digital : ");
   Serial.print(valor_detectorChuva);
   Serial.print(" - Valor analogico : ");
-  Serial.println(quantidadeChuva);
+  Serial.println(valor_quantidadeChuva);
   
   lcd.setCursor(10,0);
   if (valor_detectorChuva == 1)

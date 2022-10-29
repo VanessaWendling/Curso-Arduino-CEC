@@ -92,14 +92,14 @@ void boasVindas() {
 void sensorDHT(){ 
   lcd.setCursor(0,0);
   lcd.print("Umidade:"); 
-//lcd.print(dht.readHumidity(), 0);
-  lcd.print("%");
+  lcd.print(dht.readHumidity());
+  lcd.print("%    ");
       
   lcd.setCursor(0,1);
   lcd.print("Temp:");
-//lcd.print(dht.readTemperature(),1);
+  lcd.print(dht.readTemperature(),1);
   lcd.print((char)223);
-  lcd.print("C");
+  lcd.print("C    ");
 }
 
 void sensorBarometrico(float pressao, float altitude){

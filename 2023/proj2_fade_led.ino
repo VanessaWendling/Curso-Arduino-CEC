@@ -1,7 +1,7 @@
 // Colar os dados do projeto
-#define BLYNK_TEMPLATE_ID "DADOS_DO_PROJETWr"
-#define BLYNK_TEMPLATE_NAME "DADOS_DO_PROJET"
-#define BLYNK_AUTH_TOKEN "DADOS_DO_PROJET"
+#define BLYNK_TEMPLATE_ID "DADOS_DO_PROJETO"
+#define BLYNK_TEMPLATE_NAME "DADOS_DO_PROJETO"
+#define BLYNK_AUTH_TOKEN "DADOS_DO_PROJETO"
 
 #include <ESP8266WiFi.h> //Biblioteca para conectar a uma rede Wi-Fi
 #include <BlynkSimpleEsp8266.h> //Biblioteca para uso da plataforma Blynk
